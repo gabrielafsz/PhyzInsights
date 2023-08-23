@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PhyzInsights</title>
+    <title>Site em Construção</title>
     <style>
         body {
             background-image: url('https://img1.wallspic.com/crops/5/9/5/5/3/135595/135595-purple_and_black_planet_illustration-7680x4320.jpg'); /* Substitua 'seufundo.jpg' pelo caminho da imagem do fundo galáctico */
@@ -11,20 +11,30 @@
             margin: 0;
             padding: 0;
             display: flex;
-            justify-content: center;
+            flex-direction: column; /* Para alinhar o título e a barra de carregamento verticalmente */
             align-items: center;
+            justify-content: center;
             min-height: 100vh;
             font-family: Arial, sans-serif;
-            color: #ff66cc; /* Cor rosa/violeta para o título */
         }
 
         .container {
             text-align: center;
+            border-top: 1px solid black;
+            padding-top: 10px;
+            width: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.7); /* Fundo preto transparente */
         }
 
         .title {
             font-size: 2rem;
             margin-bottom: 20px;
+            color: white; /* Título em branco */
+            border-bottom: 1px solid black; /* Borda inferior fina preta */
+            padding: 5px 0; /* Espaçamento interno */
         }
 
         .loader {
@@ -45,7 +55,7 @@
 </head>
 <body>
     <div class="container">
-        <h1 class="title">Bem-vindo ao Nosso Site!</h1>
+        <h1 class="title">PhyzInsights</h1>
         <div class="loader"></div>
         <p>Site em Construção. Aguarde...</p>
     </div>
